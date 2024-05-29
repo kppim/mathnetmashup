@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     position: relative;
     scroll-behavior: smooth;
+    margin: 0;
 }
 
 header {
@@ -15,6 +16,10 @@ header {
     align-items: center;
     height: 100vh; /* Full viewport height */
     text-align: center;
+    color: white;
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -23,14 +28,18 @@ h1 {
     margin: 0;
 }
 
+header p {
+    font-size: 1.5rem;
+    margin: 10px 0 0;
+}
+
 h2 {
     font-size: 2rem;
     margin-top: 20px;
     color: #333;
 }
 
-p,
-ul {
+p, ul {
     font-size: 1.1rem;
     line-height: 1.6;
 }
@@ -45,7 +54,7 @@ section {
 }
 
 footer {
-    background: linear-gradient(45deg, #1e88e5, #4caf50);
+    background: linear-gradient(45deg, #343a40, #343a40);
 }
 
 .navbar {
