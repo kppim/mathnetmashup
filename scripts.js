@@ -13,5 +13,10 @@ $(document).ready(function(){
         event.preventDefault();
 
         $('html, body').animate({scrollTop: 0}, 300);
-    })
+    });
+
+    // Close the navbar-collapse when a link is clicked
+    $('.navbar-nav>li>a').on('click', function(){
+        $('.navbar-collapse').collapse('hide');
+    });
 });
